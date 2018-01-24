@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Concurrent Computing & Program Analysis" 
+title: "Concurrent Computing & Program Analysis Lab" 
 title_separator: "-"
 name: "CCPA Lab"
-description: "Concurrent computing and program analysis research laboratory at ITMO University"
+description: "Concurrent computing and program analysis research laboratory"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ccpalab.org" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "CCPALab/ccpalab.github.io"
