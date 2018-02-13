@@ -18,10 +18,10 @@ This tool finds potentially long operation invocations in UI thread. The long op
 
 
 ## Lin-Check
-*Framework for testing concurrent algorithms for correctness*\\
+*Framework for testing concurrent algorithms linearizability*\\
 <https://github.com/Devexperts/lin-check>
 
-Lin-Check is a testing framework for checking that concurrent data structure is linearizable. The approach is based on linearization definition and tries to find non-linearizable execution with specified operations, using a specially crafted test to produce lots of different executions. The execution is represented as a list of actors for every test thread, where the actor is the operation (e.g. put(key, value) and get(key) in java.util.Map) with already counted parameters.
+Lin-Check is a testing framework for checking that concurrent data structure is linearizable. The approach is based on linearization definition and tries to find a non-linearizable execution composed of specified operations, using a specially crafted test to produce lots of different scenarios. Each test scenario is represented as a list of actors for every test thread, where the actor is an operation (e.g. `put(key, value)` and `get(key)` in `java.util.Map`) with pre-counted parameter values.
 {: .text-justify}
 
 ### Related talks
