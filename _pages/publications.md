@@ -12,18 +12,19 @@ The publications are grouped by year. Ones which are indexed in Scopus or Web of
 
 ## 2018
 
-:star: Постер Виталика на PPoPP + принятые доклады\\
-<span style="color: gray">Done at ITMO University.</span>
+:star: **U. A. Acar, V. Aksenov, Arthur Charguéraud, Mike Rainey** (2018) *Performance challenges in modular parallel programs*.
+In: Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, pp. 381-382. ACM.
+<span style="color: gray">Done at ITMO University and Inria Paris.</span>
 
 ## 2017
 
 :star: **V. Aksenov, V. Gramoli, P. Kuznetsov, A. Malova, S. Ravi** (2017) *A Concurrency-Optimal Binary Search Tree*.
 In: Rivera F., Pena T., Cabaleiro J. (eds) Euro-Par 2017: Parallel Processing. Euro-Par 2017. Lecture Notes in Computer Science, vol 10417. Springer, Cham.
-<span style="color: gray">Done at ITMO University.</span>
+<span style="color: gray">Done at ITMO University and Inria Paris.</span>
 
 :star: **U. A. Acar, V. Aksenov, S. Westrick**  (2017). *Brief Announcement: Parallel Dynamic Tree Contraction via Self-Adjusting Computation*.
 In: Proceedings of the 29th ACM Symposium on Parallelism in Algorithms and Architectures (pp. 275-277). ACM.
-<span style="color: gray">Done at ITMO University.</span>
+<span style="color: gray">Done at ITMO University and Inria Paris.</span>
 
 <a id="dl_check_17"/> :star: **N. Koval, D. Tsitelov, R. Elizarov** (2018) *Dl-Check: Dynamic Potential Deadlock Detection Tool for Java Programs*.
 In: Itsykson V., Scedrov A., Zakharov V. (eds) Tools and Methods of Program Analysis. TMPA 2017. Communications in Computer and Information Science, vol 779. Springer, Cham.

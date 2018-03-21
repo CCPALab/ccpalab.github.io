@@ -21,8 +21,8 @@ Lead members of the laboratory are not from the academy only, but from industry 
 
 ### Nikita Koval
 <img class="align-left" src="/assets/images/members/koval.jpg" width="150" height="150" />
-<span class="position">Head of CCPA Lab</span>\\
-Nikita Koval is a research engineer at dxLab research group at Devexperts and in the second year of a master’s degree program in computer sciences at ITMO University, where he have been also teaching a course on concurrency programming. He is interested in concurrent algorithms, their verification and practical applicable code analysis approaches in the main.
+<span class="position">Lead of CCPA Lab</span>\\
+Nikita Koval is a research engineer at dxLab research group at Devexperts and in the second year of a master’s degree program in computer sciences at ITMO University, where he have been also teaching a course on concurrency programming. He is interested in concurrent algorithms, their verification and practical applicable code analysis approaches in general.
 {: .text-justify}
 
 <http://nkoval.info>\\
@@ -41,7 +41,7 @@ E: cit *at* devexperts *dot* com
 ### Roman Elizarov
 <img class="align-left" src="/assets/images/members/elizarov.jpg" width="150" height="150" />
 <span class="position">Concurrency expert at JetBrains</span>\\
-Roman Elizarov is a professional software developer with more than 16 years experience. He is an expert in Java and JVM, particularly in real-time data processing, algorithms and performance optimizations for modern architectures. Roman currently works on the Kotlin language at JetBrains. In 2000 Roman had graduated from St. Petersburg ITMO. He now teaches a course on concurrent and distributed programming at ITMO. During his undergraduate study, he participated at ACM International Collegiate Programming Contest (ICPC). Since 1997 and until now Roman serves as a Chief Judge of Northeastern European Regional Programming Contest (NEERC) of ACM ICPC.
+Roman Elizarov is a professional software developer with more than 16 years experience. He is an expert in Java and JVM, particularly in real-time data processing, algorithms and performance optimizations for modern architectures. Roman currently works on the Kotlin language at JetBrains. In 2000 Roman had graduated from ITMO University, were he now teaches a course on concurrent and distributed programming. During his undergraduate study, he participated at ACM International Collegiate Programming Contest (ICPC). Since 1997 and until now Roman serves as a Chief Judge of Northeastern European Regional Programming Contest (NEERC) of ACM ICPC.
 {: .text-justify}
 
 <https://www.linkedin.com/in/relizarov>\\
@@ -56,14 +56,13 @@ TODO
 E: petr.kuznetsov *at* telecom-paristech *dot* fr
 
 ### Vitaly Aksenov
-<img class="align-left" src="/assets/images/members/aksenov.jpg" width="150" height="150" />
-<span class="position">PhD student at ITMO University</span>\\
-TODO
+<img class="align-left" src="/assets/images/members/aksenov.png" width="150" height="150" />
+<span class="position">PhD student at ITMO University and Inria Paris</span>\\
+Vitaly Aksenov graduated from ITMO University in 2015 with Masters degree. Now, he is finishing his PhD degree at ITMO University and Inria Paris under the supervision of Petr Kuznetsov. As Roman Elizarov he is involved in ACM ICPC activities: he serves as Judge of North Eastern European Regional Programming Contest (NEERC) since 2012, also, he is one of the ACM ICPC coaches of WCPS (<http://wcps.ifmo.ru>). His main research interests are the theory and practice of parallel algorithms and concurrent data structures.
+{: .text-justify}
 
-E: ???
+E: aksenov.vitaly *at* gmail *dot* com
 
 ## Students
 
 CCPA Lab works with brilliant students mostly from Computer Technologies department in ITMO University.
-
-TODO: students' photos
