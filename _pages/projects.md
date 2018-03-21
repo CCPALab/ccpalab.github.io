@@ -18,10 +18,10 @@ This tool finds potentially long operation invocations in UI thread. The long op
 
 
 ## Lin-Check
-*Framework for testing concurrent algorithms for correctness*\\
+*Framework for testing concurrent algorithms linearizability*\\
 <https://github.com/Devexperts/lin-check>
 
-Lin-Check is a testing framework for checking that concurrent data structure is linearizable. The approach is based on linearization definition and tries to find non-linearizable execution with specified operations, using a specially crafted test to produce lots of different executions. The execution is represented as a list of actors for every test thread, where the actor is the operation (e.g. put(key, value) and get(key) in java.util.Map) with already counted parameters.
+Lin-Check is a testing framework for checking that concurrent data structure is linearizable. The approach is based on linearization definition and tries to find a non-linearizable execution composed of specified operations, using a specially crafted test to produce lots of different scenarios. Each test scenario is represented as a list of actors for every test thread, where the actor is an operation (e.g. `put(key, value)` and `get(key)` in `java.util.Map`) with pre-counted parameter values.
 {: .text-justify}
 
 ### Related talks
@@ -33,7 +33,7 @@ Lin-Check is a testing framework for checking that concurrent data structure is 
 *Tool for finding potential deadlocks via dynamic analysis*\\
 <https://github.com/Devexperts/dlcheck>
 
-Dl-Check determines potential deadlock as a lock hierarchy violation and finds them via dynamic analysis in Java programs. This tool is implemented as Java agent and injects analysis code within class transformation during class loading, therefore it is possible to use Dl-Check without any code change. The base algorithm for finding lock hierarchy violations is based on new cycles detection in the lock-order graph. For this purpose, an algorithm for incremental topological order maintenance is used. However, existing solutions are not efficient for concurrent execution, so currently I am working on scalable topological order maintenance algorithm.
+Dl-Check determines potential deadlock as a lock hierarchy violation and finds them via dynamic analysis in Java programs. The tool is implemented as Java agent and injects analysis code by class transformation during class loading, so it is possible to use Dl-Check without any code change. The base algorithm for finding lock hierarchy violations is based on detecting new cycles in the lock-order graph. For this purpose, an algorithm for incremental topological order maintenance is used. Unfortunately, existing solutions are not optimized for concurrent execution under high load, so currently we are working on a scalable topological order maintenance algorithm.
 {: .text-justify}
 
 ### Related talks
