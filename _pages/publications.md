@@ -12,6 +12,10 @@ The publications are grouped by year. Ones which are indexed in Scopus or Web of
 
 ## 2018
 
+:star: **V. Aksenov, P. Kuznetsov and A. Shalyto** (2018) *On Helping and Stacks*.
+In: NETYS 2018.
+<span style="color: gray">Done at ITMO University and Inria Paris.</span>
+
 :star: **U. A. Acar, V. Aksenov, Arthur Charguéraud, Mike Rainey** (2018) *Performance challenges in modular parallel programs*.
 In: Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, pp. 381-382. ACM.
 <span style="color: gray">Done at ITMO University and Inria Paris.</span>
