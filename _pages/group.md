@@ -50,7 +50,7 @@ E: elizarov *at* gmail *dot* com
 ### Petr Kuznetsov
 <img class="align-left" src="/assets/images/members/kuznetsov.png" width="150" height="150" />
 <span class="position">Professor at Télécom ParisTech</span>\\
-TODO
+Petr Kuznetsov is professor in computer science at Télécom ParisTech, Université Paris-Saclay, France. He received his PhD from École Polytechnique Fédérale de Lausanne (EPFL) in 2005. Before joining Télécom ParisTech, he worked at Max Planck Institute for Software Systems and Deutsche Telekom Innovation Labs / Technical University of Berlin. Petr's research interests are in theoretical and systems aspects of distributed computing.
 
 <https://perso.telecom-paristech.fr/kuznetso>\\
 E: petr.kuznetsov *at* telecom-paristech *dot* fr

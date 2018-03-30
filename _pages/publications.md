@@ -30,7 +30,27 @@ In: Proceedings of the 29th ACM Symposium on Parallelism in Algorithms and Archi
 In: Itsykson V., Scedrov A., Zakharov V. (eds) Tools and Methods of Program Analysis. TMPA 2017. Communications in Computer and Information Science, vol 779. Springer, Cham.
 <span style="color: gray">Done at Devexperts.</span>
 
+:star: **P. Kuznetsov, S. Ravi** (2017) *Grasping the gap between blocking and non-blocking transactional memories*. 
+In: em J. Parallel Distrib. Comput. 101: 1-16, 2017 
+<span style="color: gray">Done at Télécom ParisTech.</span>
+
 ## 2016
+
+:star: **L. Schiff, S. Schmid, P. Kuznetsov** (2016) *In-Band Synchronization for Distributed SDN Control Planes*. 
+In: Computer Communication Review ,46(1): 37-43, 2016.
+<span style="color: gray">Done at Télécom ParisTech.</span>
+
+:star: **V. Gramoli, Petr Kuznetsov, Srivatsan Ravi.** (2016) *In the Search for Optimal Concurrency*. 
+In: SIROCCO 2016: 143-158.
+<span style="color: gray">Done at Télécom ParisTech.</span>
+
+:star: **E. Gafni, Y. He, P. Kuznetsov, T. Rieutord.** (2016) *Read-Write Memory and k-Set Consensus as an Affine Task.* 
+In: OPODIS, 2016.
+<span style="color: gray">Done at Télécom ParisTech.</span>
+
+:star: **C. Delporte-Gallet, H. Fauconnier, E. Gafni, P. Kuznetsov.** (2016) *Set-Consensus Collections are Decidable.* 
+In: OPODIS, 2016.
+<span style="color: gray">Done at Télécom ParisTech.</span>
 
 **Y. Roskoshnyy, D. Tsitelov, V. Trifanov, and R. Elizarov** (2016) *Applying Static Analysis to Improve Dynamic Detection of Data Races*.
 In: Университетский научный журнал 17 (2016): 100-109.
