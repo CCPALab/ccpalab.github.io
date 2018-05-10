@@ -8,20 +8,12 @@ toc: true
 toc_label: Projects
 ---
 
-## UI-Lag-Finder
-*Tool for detecting potential lags in UI threads*\\
-<https://github.com/Devexperts/uilagfinder>
-
-This tool finds potentially long operation invocations in UI thread. The long operation is determined as a method, which needs access to filesystem or network. The approach is based on two main techniques – applying static analysis to widen the scope of detection and run-time code instrumentation to detect violations on the fly. Static analysis phase identifies methods that contain potentially long operations on a Function Call Graph (FCG) and marks them as “long.” Collected data is used by the run-time part to widen the scope of analysis and report if a long operation is invoked in UI thread. The run-time analysis also detects if UI thread may be blocked too long due to acquiring a lock which could be held during a long operation invocation.
-{: .text-justify}
-
-
 
 ## Lin-Check
 *Framework for testing concurrent algorithms linearizability*\\
 <https://github.com/Devexperts/lin-check>
 
-*Lin-Check* is a testing framework for checking that concurrent data structure is linearizable. The approach is based on linearization definition and tries to find a non-linearizable execution composed of specified operations, using a specially crafted test to produce lots of different scenarios. Each test scenario is represented as a list of actors for every test thread, where the actor is an operation (e.g. `put(key, value)` and `get(key)` in `java.util.Map`) with pre-counted parameter values.
+**Lin-check** is a framework for testing concurrent data structure for correctness. In order to use the framework, operations to be executed concurrently should be specified with the necessary information for an execution scenario generation. With the help of this specification, **Lin-Check** generates different scenarios, executes them in concurrent environment several times and then checks that the execution results are correct (usually, linearizable, but different relaxed contracts can be used as well).
 {: .text-justify}
 
 ### Related talks
@@ -81,3 +73,10 @@ Data Race Detector (*DRD*) is a special tool for data races detection at run-tim
 
 ### Related posts
 [Time machine for Java](http://nkoval.info/blog/time-machine-for-java)
+
+
+## UI-Lag-Finder
+*Tool for detecting potential lags in UI threads*\\
+
+This tool finds potentially long operation invocations in UI thread. The long operation is determined as a method, which needs access to filesystem or network. The approach is based on two main techniques – applying static analysis to widen the scope of detection and run-time code instrumentation to detect violations on the fly. Static analysis phase identifies methods that contain potentially long operations on a Function Call Graph (FCG) and marks them as “long.” Collected data is used by the run-time part to widen the scope of analysis and report if a long operation is invoked in UI thread. The run-time analysis also detects if UI thread may be blocked too long due to acquiring a lock which could be held during a long operation invocation.
+{: .text-justify}
