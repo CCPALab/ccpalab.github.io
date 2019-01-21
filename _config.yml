@@ -30,6 +30,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-include-cache
 
 minimal_mistakes_skin: "contrast"
 # search                   : true
