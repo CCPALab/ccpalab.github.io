@@ -17,7 +17,7 @@ title: "Concurrent Computing & Program Analysis Lab"
 title_separator: "-"
 name: "CCPA Lab"
 description: "Concurrent computing and program analysis research laboratory"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/7dfg7jhsdf7kasfj4o78" # the subpath of your site, e.g. /blog
 url: "http://ccpalab.org" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "CCPALab/ccpalab.github.io"
 # Build settings
